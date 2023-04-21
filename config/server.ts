@@ -8,3 +8,7 @@ export default ({ env }) => ({
     populateRelations: env.bool("WEBHOOKS_POPULATE_RELATIONS", false),
   },
 });
+
+const strapi = require("strapi");
+
+strapi().start();
