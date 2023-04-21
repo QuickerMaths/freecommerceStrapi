@@ -1,0 +1,35 @@
+{
+  "name": "hatsbackend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@bwyx/strapi-jwt-cookies": "^0.0.6",
+    "@sendgrid/mail": "^7.7.0",
+    "@strapi/plugin-i18n": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/provider-email-nodemailer": "^4.9.0",
+    "@strapi/provider-email-sendgrid": "^4.9.1",
+    "@strapi/strapi": "4.8.2",
+    "pg": "8.8.0",
+    "strapi-stripe": "^3.2.1",
+    "stripe": "^11.14.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "173535a0-0a80-4a93-ae5c-f23dd452b84e"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
